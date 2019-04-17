@@ -1,0 +1,41 @@
+
+#content .sidebar .gadget {
+	margin:0 0 12px;
+	padding:8px 0;
+	color:gold;
+	
+}
+#content .sidebar h2 {
+	color:#949494;
+	text-transform:none;
+	border-bottom:1px solid #d8d8d6;
+}
+ul.sb_menu {
+	margin:0;
+	padding:0;
+	list-style:square;
+	color:#000;
+}
+
+ul.sb_menu li {
+	padding:8px 0;
+	width:220px;
+	margin:0;
+}
+
+ul.sb_menu li a {
+	color:gold;
+	text-decoration:none;
+	margin-left:-16px;
+	padding:4px 8px 4px 16px;
+}
+ul.ex_menu li a {
+	font-weight:bold;
+	color:gold;
+	text-decoration:none;
+}
+ul.sb_menu li a:hover{
+	color:#E6007E;
+	font-weight:bold;
+	text-decoration:underline;
+}

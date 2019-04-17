@@ -1,0 +1,246 @@
+
+#slider h2 {
+	color:#fff;
+	font-size:38px;
+	line-height:40px;
+	font-weight:normal;
+}
+#main h3 {
+	font-size:20px;
+	line-height:22px;
+	color:#121212;
+	font-weight:normal;
+}
+#main h3.wheels, #main h3.tic-tac, #main h3.cup, #main h3.sync {
+	padding-left:35px;
+	background:url(images/h3-clock.gif) left top no-repeat;
+	line-height:33px;
+	padding-bottom:2px;
+}
+#main h3.wheels {
+	background-image:url(images/h3-wheels.gif);
+	background-position:0 3px;
+}
+#main h3.tic-tac {
+	background-image:url(images/h3-clock.gif);
+	background-position:0 2px;
+}
+#main h3.cup {
+	background-image:url(images/h3-cup.gif);
+}
+#main h3.sync {
+	background-image:url(images/h3-sync.gif);
+}
+h4 {
+	font-size:11px;
+	color:#464646;
+	font-weight:normal;
+	padding:0 0 6px 2px;
+}
+.cl {
+	display:block;
+	height:0;
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+	clear:both;
+}
+.notext {
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+}
+.left, .alignleft {
+	float:left;
+	display:inline;
+}
+.right, .alignright {
+	float:right;
+	display:inline;
+}
+.shell {
+	width:940px;
+	margin:0 auto;
+	position:relative;
+	padding:0 10px;
+}
+#header, #header .shell {
+	background:#fff;
+}
+#main {
+	background:url(images/main.gif) center top;
+}
+#main .bg-top {
+	background:url(images/main-top.gif) center top repeat-x;
+	width:100%;
+}
+#header .shell {
+	height:92px;
+	width:960px;
+	
+}
+
+
+	
+}
+#navigation {
+	float:right;
+	display:inline;
+	padding:23px 11px 0 0;
+}
+#navigation ul {
+	list-style:none;
+	float:right;
+}
+#navigation ul li {
+	float:left;
+	display:inline;
+	font-family:"gotham";
+	font-size:14px;
+	font-weight:bold;
+	padding-left:27px;
+	line-height:16px;
+}
+#navigation ul li a {
+	color:rgb(224,18,29);
+	text-decoration:none;
+	text-shadow:#000 1px 1px 1px;
+}
+#navigation ul li a.active, #navigation ul li a:hover {
+	color:rgb(61,1,65);
+}
+#navigation .has-dd {
+	padding-right:10px;
+}
+#navigation .dd {
+	display:none;
+}
+#header .socials {
+	position:absolute;
+	right:74px;
+	bottom:0;
+}
+#header .socials a {
+	position:absolute;
+	bottom:0;
+	width:24px;
+	height:18px;
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+}
+#header .socials .socials-facebook {
+	background:#fff url(images/socials-facebook.gif) top no-repeat;
+	right:54px;
+}
+#header .socials .socials-twitter {
+	background:#fff url(images/socials-twitter.gif) top no-repeat;
+	right:24px;
+}
+#slider .shell {
+	margin-top: 10px;
+	width:1200px;
+	height:500px;
+	background: #000;
+	border: 2px solid #E6007E;
+	
+}
+#slider ul {
+	list-style:none;
+	position:relative;
+	
+}
+#slider ul li {
+	float:left;
+	height:600px;
+	position:relative;
+	
+}
+#slider  {
+	width:100%;
+}
+#slider .jcarousel-clip-horizontal {
+	width:100%;
+}
+#slider .jcarousel-clip {
+	position:relative;
+	height:500px;
+	overflow:hidden;
+}
+#slider .jcarousel-next, #slider .jcarousel-prev {
+	position:absolute;
+	top:136px;
+	width:47px;
+	height:80px;
+	
+	cursor:pointer;
+}
+#slider .jcarousel-next {
+	background:url(images/slider-next.png);
+	right:20px;
+}
+#slider .jcarousel-prev {
+	background:url(images/slider-prev.png);
+	left:20px;
+}
+#slider .data {
+	position:relative;
+	display:block;
+	z-index:3;
+	padding:54px 310px 0 111px;
+	width:393px;
+	margin:0 auto;
+}
+#slider .data p {
+	color:#8c8c8c;
+	font-style:italic;
+	padding:8px 0 10px 33px;
+	font-size:13px;
+	text-shadow:#333 1px 1px 0;
+}
+#slider .data .button {
+	float:right;
+	height:17px;
+	line-height:17px;
+	padding:0 4px;
+	background:#db1616;
+}
+#slider .data .button {
+	color:#fff;
+	text-shadow:#3b0606 0 1px 0;
+	text-decoration:none;
+	font-size:10px;
+}
+#slider .image {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+	width:100%;
+}
+#slider .image img {
+	display:block;
+	margin:0 auto;
+	padding-left:40px;
+}
+#main .shell {
+	padding-top:15px;
+	padding-bottom:4px;
+}
+#main .button {
+	float:left;
+	height:17px;
+	line-height:17px;
+	padding:0 5px;
+	background-color:#2f83b7 !important;
+	font-size:10px;
+}
+#main .button {
+	color:#fff;
+	text-shadow:#0d2332 0 1px 0;
+	text-decoration:none;
+	margin:2px 2px 0 0;
+}
+#main .button:hover {
+	background-color:#1c5275 !important;
+}
